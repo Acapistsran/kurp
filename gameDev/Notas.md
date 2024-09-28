@@ -1,0 +1,2 @@
+- El Modulo de construccion debe tener componentes separados para las naves y las bases
+- Debe haber un modulo encargado de la fabricacion de objetos, o un modulo encargado de todos los items que el jugador pueda utilizar (modulo de inventario)

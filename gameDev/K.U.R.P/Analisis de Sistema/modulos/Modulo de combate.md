@@ -1,0 +1,4 @@
+- **Descripción del Módulo**: Maneja las armas, el daño, la armadura, los tipos de armas y sus estadisticas dentro y fuera de los planetas
+- **Requisitos Funcionales**: Diferentes tipos de armas (melee, armas de fuego, explosivos, armas quimicas, armas laser, bombas nucleares y bombas de antimateria) y sus respectivas municiones (Explosivas, punta hueca, Anti armadura, Electromagneticas, etc) Asi tambien como el uso de diferentes tipos de misiles con multiples tipos de ojivas
+- **Requisitos No Funcionales**: Este modulo es MUY dependiente de la latencia, especialmente en combates PvP. El juego debe tener la menor latencia posible al momento de empezar un combate para evitar que el jugador con la mejor configuracion (computacional) tenga la ventaja
+- **Interacciones con otros Módulos**: [[Modulo de personajes]] (Manejo de estadisticas como daño y vida) y [[Modulo de Multijugador]]

@@ -1,0 +1,13 @@
+- **Descripción del Módulo**: Permite la creacion y personalizacion de personajes, ademas de el cambio dinamico entre los multiples personajes en control del jugador
+- **Requisitos Funcionales**: Debe haber 3 clases de personajes: Humanos, aliens y robots, cada uno con sus diferentes tipos de necesidades. Tambien se tiene que permitir el cambio dinamico entre personajes para poder aprovechar caracteristicas de cada uno en diferentes situaciones, mientras que la IA del juego se encarga de hacer que los demas personajes cumplan tareas en la base o en una nave
+	- Los robots son la dificultad menor. No necesitan comer o respirar, son menos suceptibles a los elementos, pueden sobrevivir en el vacio del espacio, y pueden cambiar sus partes para utilizar otras caracteristicas, como extremidades con armas, mayores baterias, etc. Los robots necesitan energia para funcionar, y sus partes se desgastan dependiendo del uso
+	- Los aliens necesitan comer y respirar, pero sus adaptaciones que se pueden escoger mediante la compra de puntos les permiten tener diferentes ventajas por sobre los humanos, como exoesqueletos, vision nocturna o alas, a cambio de debilidades en otros aspectos
+	- Los humanos son las especie mas dificil, y normalmente, con la que los jugadores empiezan. Necesitan comer, respirar, dormir, y son debiles ante los peligrosos elementos del espacio, como la radiacion de las estrellas, o las atmosferas densas de algunos planetas con mayor gravedad. Pero tambien son la especie que sube de nivel mas rapido, y que aprende como utilizar tecnologias nuevas mas facilmente por su curiosidad natural. Tienen un x2 de XP natural
+- Los personajes ademas tienen las siguientes estadisticas:
+	- Experiencia: Es el nivel de los personajes
+	- Vitalidad: Son los puntos de vida que resiste el personaje antes de morir
+	- Hambre (NO ROBOTS): Es la necesidad que tienen de comer. Si llega a 0 empezaran a sufrir daños
+	- Oxigeno (NO ROBOTS): Es el aire en los pulmones de tu personaje. Si llega a cero, pierden vida rapidamente hasta asfixiarse
+	- Radiación
+- **Requisitos No Funcionales**: Cambio dinamico sin tiempos de carga largos. Podria ser implementado como un "tiempo de conexion" entre los diferentes personajes, pero en un combate esto afectaria gravemente las posibilidades de supervivencia del jugador
+- **Interacciones con otros Módulos**: [[Modulo de Multijugador]] (Permite a los aliados poder crear personajes juntos y hacer una partida colaborativa en el mismo planeta o sistema solar)
